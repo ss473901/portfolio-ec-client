@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 //mui
 import { Search } from "@mui/icons-material";
@@ -65,6 +66,11 @@ const Item = styled.div`
   margin-left: 25px;
 `;
 
+const SLink = styled(Link)`
+  text-decoration: none;
+  color: black;
+`;
+
 const Navbar = () => {
   return (
     <Container>
@@ -78,7 +84,9 @@ const Navbar = () => {
         </Left>
 
         <Center>
-          <Logo>LAMA.</Logo>
+          <SLink to={`/`}>
+            <Logo>Clothes.</Logo>
+          </SLink>
         </Center>
 
         <Right>
