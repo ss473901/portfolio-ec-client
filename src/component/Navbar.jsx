@@ -72,7 +72,7 @@ const SLink = styled(Link)`
 
 const Navbar = () => {
   return (
-    <Container>
+    <Container role="header">
       <Wrapper>
         <Left>
           <Language>EN</Language>
