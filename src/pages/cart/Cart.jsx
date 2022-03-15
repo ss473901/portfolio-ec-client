@@ -18,8 +18,7 @@ export const Cart = () => {
           <Styled.Info>
             <Styled.Product>
               <Styled.ProductDetail>
-                <Styled.Image />
-
+                <Styled.Image src="https://source.unsplash.com/6Nub980bI3I" />
                 <Styled.Details>
                   <Styled.ProductName>
                     <b>商品名：</b>シャツ
@@ -33,9 +32,16 @@ export const Cart = () => {
                   </Styled.ProductSize>
                 </Styled.Details>
               </Styled.ProductDetail>
+
+              <Styled.ProductAmountContainer>
+                {/* <Add /> */}
+                <Styled.ProductAmount>1</Styled.ProductAmount>
+                {/* <Remove /> */}
+              </Styled.ProductAmountContainer>
+              <Styled.PriceDetail>Price</Styled.PriceDetail>
             </Styled.Product>
-            <Styled.PriceDetail>Price</Styled.PriceDetail>
           </Styled.Info>
+
           <Styled.Summary>
             <Styled.SummaryTitle>商品合計</Styled.SummaryTitle>
             <Styled.SummaryItem>
