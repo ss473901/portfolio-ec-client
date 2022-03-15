@@ -1,9 +1,9 @@
-import { Home } from "./pages/home/Home";
-import { Product } from "./pages/product/Product";
-import { ProductList } from "./pages/productList/ProductList";
-import { Register } from "./pages/register/Register";
-import { Cart } from "./pages/cart/Cart";
-import { Login } from "./pages/login/Login";
+import { Home } from "./pages/Home";
+import { Product } from "./pages/Product";
+import { ProductList } from "./pages/ProductList";
+import { Register } from "./pages/Register";
+import { Cart } from "./pages/Cart";
+import { Login } from "./pages/Login";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 

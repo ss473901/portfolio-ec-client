@@ -1,5 +1,5 @@
 import * as Styled from "./style";
-import { Navbar } from "../../component/navbar/Navbar";
+import { Navbar } from "../../component/Navbar";
 
 export const Cart = () => {
   return (
@@ -38,6 +38,7 @@ export const Cart = () => {
                 <Styled.ProductAmount>1</Styled.ProductAmount>
                 {/* <Remove /> */}
               </Styled.ProductAmountContainer>
+
               <Styled.PriceDetail>Price</Styled.PriceDetail>
             </Styled.Product>
           </Styled.Info>

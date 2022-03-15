@@ -1,7 +1,7 @@
 import * as Styled from "./style";
-import { Announcement } from "../../component/announcement/Announcement";
-import { Navbar } from "../../component/navbar/Navbar";
-import { Products } from "../../component/products/Products";
+import { Announcement } from "../../component/Announcement";
+import { Navbar } from "../../component/Navbar";
+import { Products } from "../../component/Products";
 
 export const ProductList = () => {
   return (

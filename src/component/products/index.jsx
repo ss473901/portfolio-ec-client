@@ -1,6 +1,6 @@
 import * as Styled from "./style";
 
-import { Product } from "../product/Product";
+import { Product } from "../Product";
 import { popularProducts } from "../../date";
 
 export const Products = () => {

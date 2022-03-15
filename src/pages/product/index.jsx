@@ -1,8 +1,8 @@
 import * as Styled from "./style";
 import AddIcon from "@mui/icons-material/Add";
 import RemoveIcon from "@mui/icons-material/Remove";
-import { Navbar } from "../../component/navbar/Navbar";
-import { Announcement } from "../../component/announcement/Announcement";
+import { Navbar } from "../../component/Navbar";
+import { Announcement } from "../../component/Announcement";
 
 export const Product = () => {
   return (

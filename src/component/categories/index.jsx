@@ -1,6 +1,6 @@
 import * as Styled from "./style";
 import { categories } from "../../date";
-import { CategoryItem } from "../categoryItem/CategoryItem";
+import { CategoryItem } from "../CategoryItem";
 
 export const Categories = () => {
   return (
