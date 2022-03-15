@@ -10,7 +10,7 @@ export const Navbar = () => {
         <Styled.Left>
           <Styled.SearchContainer>
             <Styled.Input placeholder="Search" />
-            <Search style={{ color: "gray", fontSize: 16 }} />
+            <Search style={{ color: "gray", fontSize: 20 }} />
           </Styled.SearchContainer>
         </Styled.Left>
 
@@ -30,7 +30,6 @@ export const Navbar = () => {
               <ShoppingCartOutlinedIcon />
             </Badge>
           </Styled.Item>
-          
         </Styled.Right>
       </Styled.Wrapper>
     </Styled.Container>
