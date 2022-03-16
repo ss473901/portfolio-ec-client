@@ -3,11 +3,11 @@ import styled from "styled-components";
 export const Container = styled.div``;
 
 export const Wrapper = styled.div`
-  padding: 20px;
+  padding: 21px;
 `;
 
 export const Title = styled.h1`
-  font-weight: 300;
+  font-weight: 310;
   text-align: center;
 `;
 export const Top = styled.div`
