@@ -1,9 +1,11 @@
-import Home from "./pages/Home";
-import Product from "./pages/Product";
-import ProductList from "./pages/ProductList";
-import Register from "./pages/Register";
-import Cart from "./pages/Cart";
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import { Home } from "./pages/Home";
+import { Product } from "./pages/Product";
+import { ProductList } from "./pages/ProductList";
+import { Register } from "./pages/Register";
+import { Cart } from "./pages/Cart";
+import { Login } from "./pages/Login";
+
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
@@ -14,6 +16,7 @@ function App() {
         <Route path="/product/:id" element={<Product />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/login" element={<Login />} />
       </Routes>
     </BrowserRouter>
   );
