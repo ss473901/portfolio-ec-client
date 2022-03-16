@@ -19,7 +19,12 @@ export const Top = styled.div`
 export const TopButton = styled.button`
   padding: 10px;
   font-weight: 600;
-  cursor: pointer;
+  background-color: black;
+
+  border: ${(props) => props.type === "filled" && "none"};
+  background-color: ${(props) =>
+    props.type === "filled" ? "black" : "transparent"};
+  color: ${(props) => props.type === "filled" && "white"};
 `;
 
 export const Bottom = styled.div`
@@ -31,14 +36,21 @@ export const Info = styled.div`
   flex: 3;
 `;
 
-export const ProductAmountContainer = styled.div``;
+export const ProductAmountContainer = styled.div`
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+`;
 
-export const ProductAmount = styled.div``;
+export const ProductAmount = styled.div`
+  font-size: 24px;
+  margin: 5px;
+`;
 
 // product
 export const Product = styled.div`
   display: flex;
-  justify-content: space-between;
+  align-items: center;
 `;
 
 export const Details = styled.div`
@@ -94,4 +106,10 @@ export const Button = styled.button`
   background-color: black;
   color: white;
   font-weight: 600;
+`;
+
+export const Hr = styled.hr`
+  background-color: #eee;
+  border: none;
+  height: 1px;
 `;
