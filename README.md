@@ -2,30 +2,25 @@
 Portfolio - EC website [Server Side]
 
 ## 使用技術
-
-- React.js v17.0.1
-- react-router-dom 
-- node-sass 
-- axios v0.21.1
   
-─ react@17.0.2
+- react@17.0.2
 - @emotion/react@11.7.1
 - @emotion/styled@11.6.0
 - @material-ui/core@4.12.3
-─ @material-ui/icons@4.11.2
-─ @mui/icons-material@5.4.2
-─ @mui/material@5.4.2
-─ @reduxjs/toolkit@1.7.2
-─ @testing-library/jest-dom@5.16.2
-─ @testing-library/react@12.1.3
-─ @testing-library/user-event@13.5.0
-─ firebase@9.6.7
-─ react-dom@17.0.2
-─ react-redux@7.2.6
-─ react-router-dom@6.2.1
-─ react-scripts@5.0.0
-─ styled-components@5.3.3
-─ web-vitals@2.1.4 
+- @material-ui/icons@4.11.2
+- @mui/icons-material@5.4.2
+- @mui/material@5.4.2
+- @reduxjs/toolkit@1.7.2
+- @testing-library/jest-dom@5.16.2
+- @testing-library/react@12.1.3
+- @testing-library/user-event@13.5.0
+- firebase@9.6.7
+- react-dom@17.0.2
+- react-redux@7.2.6
+- react-router-dom@6.2.1
+- react-scripts@5.0.0
+- styled-components@5.3.3
+- web-vitals@2.1.4 
 
   
  
