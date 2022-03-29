@@ -1,5 +1,5 @@
 <h1 align="center">
-Portfolio - EC website [Server Side]
+Portfolio - EC website [Client Side]
 
 ## 使用技術
   
