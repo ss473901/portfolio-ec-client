@@ -1,70 +1,91 @@
-# Getting Started with Create React App
+<h1 align="center">
+Portfolio - EC website [Server Side]
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 使用技術
 
-## Available Scripts
+- React.js v17.0.1
+- react-router-dom 
+- node-sass 
+- axios v0.21.1
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Deploy
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Netlify(For client side)
+- Heroku(For server side)
+  
+  
+  # News-App
 
-### `npm test`
+## 【概要】
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Alt text](src/assets/logo-news.png)
 
-### `npm run build`
+## Application:News Quu
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+[Go to News Quu App](https://news-app-8efb7.web.app/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Login E-mail :testaccount.1@test.ttt.com
+- Password :testuser1214
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Description
 
-### `npm run eject`
+ビジネス情報や株価等を閲覧することができるニュースサイトです。\
+ カテゴリ別に記事表示を変更することや、調べたい word で記事を検索することが出来ます。
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 【Technologies used (使用技術)】
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- React.js v17.0.1\
+   (Hooks: useState, useEffect, useContext)
+- react-router-dom v0.21.1
+- Material-UI v4.11.3
+- node-sass v5.0.0
+- react-chartjs-2 v2.11.1
+- react-spinners v0.10.6
+- axios v0.21.1
+- Firebase v8.2.9\
+  (Authentication, CloudFirestore, Hosting)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Used API
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- bing news search
+- FMP Cloud
+- Marketstack
 
-## Learn More
+## 【SetUp (開発方法)】
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Go to the project folder and install required dependencies.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### `yarn install`
 
-### Code Splitting
+And run Webpack watch for code changes and bundle js and css
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### `yarn start`
 
-### Analyzing the Bundle Size
+Project will be automatically open at http://localhost:3000
+For production build:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### `yarn build`
 
-### Making a Progressive Web App
+If you need API keys, get it from this link.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- [bing news search](https://api.rakuten.net/microsoft-azure-org-microsoft-cognitive-services/api/bing-news-search1/details)
+- [FMP Cloud](https://fmpcloud.io/)
+- [MarketStack](https://marketstack.com/)\
+  ※All can be registered for free.
 
-### Advanced Configuration
+## 【機能一覧】
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+| 機能                           | 概要                                                       |
+| ------------------------------ | ---------------------------------------------------------- |
+| 記事一覧表示                   | API から取得したニュース記事を表示                         |
+| 記事個別表示                   | API から取得したニュース記事を個別に表示                   |
+| カテゴリ切り替え               | "Business", "Technology"などのカテゴリを切り替え記事を取得 |
+| 株価表示                       | 主要株の価格、前日終値に対しての現在価格の変動比(%)を表示  |
+| Chart 表示                     | 株価を月間ベースで chart 描画                              |
+| 記事検索                       | free word で探したいニュース記事を検索                     |
+| ユーザー新規登録(Auth)         | User の新規登録                                            |
+| ユーザーログイン(Auth)         | Email and Password, Google 認証を利用したログイン機能      |
+| 記事 Clip/削除(CloudFireStore) | 気に入った記事の clip, 削除機能                            |
+| 言語/地域切替(uesContext)      | 言語/地域別に表示する記事を変更                            |
